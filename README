@@ -6,8 +6,7 @@ Concerning the AD groups, no dementia-related comorbidities have been reported. 
 The mean age of the AD group was 66.4 (sd=7.9), for the FTD group was 63.6 (sd=8.2), and for the CN group was 67.9 (sd=5.4).
                                                         
 Recordings: Recordings were aquired from the 2nd Department of Neurology of AHEPA General Hispital of Thessaloniki by an experienced team of neurologists. For recording, a Nihon Kohden EEG 2100 clinical device was used, 
-with 19 scalp electrodes (Fp1, Fp2, F7, F3, Fz, F4, F8, T3, C3, Cz, C4, T4, T5, P3, Pz, P4, T6, O1, and O2) according to the 10-20 international system and 2 reference electrodes (A1 and A2)
-placed on the mastoids for impendance check, according to the manual of the device.Each recording was performed according to the clinical protocol with participants being in a sitting position having their eyes closed. 
+with 19 scalp electrodes (Fp1, Fp2, F7, F3, Fz, F4, F8, T3, C3, Cz, C4, T4, T5, P3, Pz, P4, T6, O1, and O2) according to the 10-20 international system and 2 reference electrodes (A1 and A2) placed on the mastoids for impendance check, according to the manual of the device. Each recording was performed according to the clinical protocol with participants being in a sitting position having their eyes closed. 
 Before the initialization of each recording, the skin impedance value was ensured to be below 5k?. The sampling rate was 500 Hz with 10uV/mm resolution.
 The recording montages were anterior-posterior bipolar and referential montage using Cz as the common reference. The referential montage was included in this dataset.
 The recordings were received under the range of the following parameters of the amplifier: Sensitivity: 10uV/mm, time constant: 0.3s, and high frequency filter at 70 Hz.
@@ -17,7 +16,7 @@ In total, 485.5 minutes of AD, 276.5 minutes of FTD and 402 minutes of CN record
 Preprocessing: The EEG recordings were exported in .eeg format and are transformed to BIDS accepted .set format for the inclusion in the dataset. 
 Automatic annotations of the Nihon Kohden EEG device marking artifacts (muscle activity, blinking, swallowing) have not been included for language compatibility purposes 
 (If this is an issue, please use the preprocessed dataset in Folder: derivatives).
-The unprocessed EEG recordings are included in files named: sub-0XX. File named sub-0XX in the subfolder derivatives contain the preprocessed and denoised EEG recordings. 
+The unprocessed EEG recordings are included in folders named: sub-0XX. Folders named sub-0XX in the subfolder derivatives contain the preprocessed and denoised EEG recordings. 
 The preprocessing pipeline of the EEG signals is as follows. First, a Butterworth band-pass filter 0.5-45 Hz was applied and the signals were re-referenced to A1-A2. 
 Then, the Artifact Subspace Reconstruction routine (ASR) which is an EEG artifact correction method included in the EEGLab Matlab software was applied to the signals, 
 removing bad data periods which exceeded the max acceptable 0.5 second window standard deviation of 17, which is considered a conservative window. 
