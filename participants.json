@@ -1,0 +1,29 @@
+{
+  "participant_id": {
+    "LongName": "Participant identifier",
+    "Description": "Unique participant label"
+  },
+  "Gender": {
+    "Description": "Participant gender",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+    }
+  },
+  "Age": {
+    "Description": "Participant age (years)",
+    "Units": "years"
+  },
+  "Group": {
+    "Description": "Participant group label",
+    "Levels": {
+      "A": "Alzheimer Disease Group",
+      "F": "Frontotemporal Dementia Group",
+      "C": "Healthy Group"
+
+    }
+  },
+  "MMSE": {
+    "Description": "Mini Mental State Examination"
+  }
+}
