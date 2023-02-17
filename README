@@ -17,7 +17,7 @@ In total, 485.5 minutes of AD, 276.5 minutes of FTD and 402 minutes of CN record
 Preprocessing: The EEG recordings were exported in .eeg format and are transformed to BIDS accepted .set format for the inclusion in the dataset. 
 Automatic annotations of the Nihon Kohden EEG device marking artifacts (muscle activity, blinking, swallowing) have not been included for language compatibility purposes 
 (If this is an issue, please use the preprocessed dataset in Folder: derivatives).
-The unprocessed EEG recordings are included in files named: ADD NAME. File named ADDNAME contain the preprocessed and denoised EEG recordings. 
+The unprocessed EEG recordings are included in files named: sub-0XX. File named sub-0XX in the subfolder derivatives contain the preprocessed and denoised EEG recordings. 
 The preprocessing pipeline of the EEG signals is as follows. First, a Butterworth band-pass filter 0.5-45 Hz was applied and the signals were re-referenced to A1-A2. 
 Then, the Artifact Subspace Reconstruction routine (ASR) which is an EEG artifact correction method included in the EEGLab Matlab software was applied to the signals, 
 removing bad data periods which exceeded the max acceptable 0.5 second window standard deviation of 17, which is considered a conservative window. 
