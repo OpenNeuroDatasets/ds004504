@@ -1,0 +1,29 @@
+{
+    "ReferencesAndLinks": [
+        "A. Miltiadous et al., “Alzheimer’s Disease and Frontotemporal Dementia: A Robust Classification Method of EEG Signals and a Comparison of Validation Methods,” Diagnostics, vol. 11, no. 8, p. 1437, Aug. 2021, doi: 10.3390/diagnostics11081437.",
+        "K. D. Tzimourta et al., “Analysis of electroencephalographic signals complexity regarding Alzheimer’s Disease,” Computers & Electrical Engineering, vol. 76, pp. 198–212, Jun. 2019, doi: 10.1016/j.compeleceng.2019.03.018."
+    ],
+    "Name": "A dataset of 88 EEG recordings from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects",
+    "Acknowledgments": "We acknowledge support of this work from the project Immersive Virtual,Augmented and Mixed Reality Center of Epirus (MIS 5047221) which is implemented under the Action Reinforcement of the Research and Innovation Infrastructure, funded by the OperationalProgramme Competitiveness, Entrepreneurship and Innovation (NSRF 2014-2020) and co-financedby Greece and the European Union (European Regional Development Fund).",
+    "Authors": [
+        "Andreas Miltiadous",
+        "Katerina D. Tzimourta",
+        "Theodora Afrantou",
+        "Panagiotis Ioannidis",
+        "Nikolaos Grigoriadis",
+        "Dimitrios G. Tsalikakis",
+        "Pantelis Angelidis",
+        "Markos G. Tsipouras",
+        "Evripidis Glavas",
+        "Nikolaos Giannakeas",
+        "Alexandros T. Tzallas"
+    ],
+    "License": "CC0",
+    "HowToAcknowledge": "Until Publication of the datasets data-study, please cite https://doi.org/10.3390/diagnostics11081437 , https://doi.org/10.1016/j.compeleceng.2019.03.018",
+    "BIDSVersion": "v1.2.1",
+    "DatasetDOI": "doi:10.18112/openneuro.ds004504.v1.0.2",
+    "Acknowledgements": "We aknowledge support of the 2nd Department of Neurology of AHEPA General University Hospital of Thessaloniki.\n\nWe acknowledge support of this work from the project “Immersive Virtual, Augmented and Mixed Reality Center of Epirus” (MIS 5047221) which is implemented under the Action “Reinforcement of the Research and Innovation Infrastructure”, funded by the Operational Programme “Competitiveness, Entrepreneurship and Innovation” (NSRF 2014-2020) and co-financed by Greece and the European Union (European Regional Development Fund).",
+    "EthicsApprovals": [
+        "To be updated"
+    ]
+}
