@@ -23,3 +23,5 @@ removing bad data periods which exceeded the max acceptable 0.5 second window st
 Next, the Independent Component Analysis (ICA) method (RunICA algorithm) was performed, transforming the 19 EEG signals to 19 ICA components. 
 ICA components that were classified as “eye artifacts” or “jaw artifacts” by the automatic classification routine “ICLabel” in the EEGLAB platform were automatically rejected. 
 It should be noted that, even though the recording was performed in a resting state, eyes-closed condition, eye artifacts of eye movement were still found at some EEG recordings.
+
+A complete analysis of this dataset can be found in the published Data Descriptor paper "A Dataset of Scalp EEG Recordings of Alzheimer’s Disease, Frontotemporal Dementia and Healthy Subjects from Routine EEG", https://doi.org/10.3390/data8060095
