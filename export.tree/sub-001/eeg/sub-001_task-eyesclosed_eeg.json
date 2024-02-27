@@ -1,0 +1,23 @@
+{
+    "PowerLineFrequency":  50,
+    "SoftwareFilters":  {
+                            "FilterDescription":  {
+                                                      "Description":  "0.4 - 50"
+                                                  }
+                        },
+    "EEGPlacementScheme":  "10-20",
+    "EEGReference":  "A1 A2",
+    "CapManufacturersModelName":  "EEG 2100",
+    "CapManufacturer":  "Nihon Kohden",
+    "InstitutionAddress":  "Arta, Greece",
+    "InstitutionalDepartmentName":  "Department of Informatics and Telecommunications",
+    "InstitutionName":  "University of Ioannina",
+    "TaskName":  "eyesclosed",
+    "EEGChannelCount":  19,
+    "RecordingType":  "continuous",
+    "RecordingDuration":  599.8,
+    "SamplingFrequency":  500,
+    "EOGChannelCount":  0,
+    "ECGChannelCount":  0,
+    "EMGChannelCount":  0
+}
